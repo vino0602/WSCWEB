@@ -1,0 +1,52 @@
+/* Ensure the html and body elements take up the full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set up the main app container with Flexbox */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Minimum height is the full viewport height */
+}
+
+/* Style the Header */
+.header-container {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main content styling */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #E9FFFC;
+  color: #090904;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Map section styling */
+.map-section {
+  padding: 20px;
+  background-color: #f0f8ff; /* Light blue background for the map section */
+  text-align: center;
+}
+
+/* Footer styling */
+.footer {
+  background-color: rgba(243, 237, 237, 0.5); /* Light background with transparency */
+  color: #a71c1c;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.footer p {
+  margin: 0;
+}

@@ -1,0 +1,50 @@
+/* SocialMedia.css */
+
+/* Top bar styling */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .top-bar.hidden {
+    transform: translateY(-100%);
+  }
+  
+  .top-bar.visible {
+    transform: translateY(0);
+  }
+  
+  /* Contact information styling */
+  .contact-info {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Social icons styling */
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #007bff; /* Hover color */
+  }
+  
